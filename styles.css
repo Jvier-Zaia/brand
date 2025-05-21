@@ -1,0 +1,208 @@
+*{ font-family:monospace;
+align-items: center;
+}
+ body {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+ }
+ .cart-1{
+    width: 500px;
+    padding: 25px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: 6px -5px 179px -28px rgba(204,172,4,1);
+-webkit-box-shadow: 6px -5px 179px -28px rgba(204,172,4,1);
+-moz-box-shadow: 6px -5px 179px -28px rgba(204,172,4,1);
+position: relative;
+top: 250px;
+left: 120px;
+;
+}
+.cart-content-1{
+position:relative;
+top: 0.5px;
+left: 250px;
+width: 50px;
+
+
+}
+.cart-1::before{
+    position:absolute;
+    right: 1px;
+    left: 1px;
+    top:  1px;
+    content: "";
+    height: 10px;
+    width: 100%;
+    background-color: rgb(243, 227, 4);
+    border-radius: 35px ;
+    border-top-left-radius:     45px;
+    border-top-right-radius: 35px;
+    -webkit-border-radius: 35px ;
+    -moz-border-radius: 35px ;
+    -ms-border-radius: 35px ;
+    -o-border-radius: 35px ;
+}
+
+.cart-content-text-1 h2{
+color: #989b00c0;
+font-size: x-large;
+}
+
+
+
+.cart-2{
+    width: 500px;
+    padding: 25px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+box-shadow: 6px -5px 179px -28px rgba(0,102,255,1);
+-webkit-box-shadow: 6px -5px 179px -28px rgba(0,102,255,1);
+-moz-box-shadow: 6px -5px 179px -28px rgba(0,102,255,1);
+position: relative;
+top: 350px; 
+left: 150px;
+height: 155px;
+}
+.cart-content-2{
+ position:relative;
+bottom: 10px;
+left: 220px;
+width: 10px;
+}
+.cart-2::before{
+    position:absolute;
+    right: 1px;
+    left: 1px;
+    top:  1px;
+    content: "";
+    height: 10px;
+    width: 100%;
+    background-color: rgb(4, 8, 243);
+    border-radius: 35px ;
+    border-top-left-radius:     45px;
+    border-top-right-radius: 35px;
+    -webkit-border-radius: 35px ;
+    -moz-border-radius: 35px ;
+    -ms-border-radius: 35px ;
+    -o-border-radius: 35px ;}
+
+.cart-content-text-2 h2{color: rgb(0, 0, 212);}
+.cart-3{
+    width: 500px;
+    padding: 25px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+box-shadow: 6px -5px 179px -28px rgb(0, 114, 99);
+-webkit-box-shadow: 6px -5px 179px -28px rgb(3, 165, 152);
+-moz-box-shadow: 6px -5px 179px -28px rgb(0, 110, 101);
+position: relative;
+top: 130px; 
+right: 200px;
+height: 155px;
+background-color: white;
+}
+.cart-3::before{
+    position:absolute;
+    right: 1px;
+    left: 1px;
+    top:  1px;
+    content: "";
+    height: 10px;
+    width: 100%;
+    background-color: rgb(3, 170, 142);
+    border-radius: 35px ;
+    border-top-left-radius:     45px;
+    border-top-right-radius: 35px;
+    -webkit-border-radius: 35px ;
+    -moz-border-radius: 35px ;
+    -ms-border-radius: 35px ;
+    -o-border-radius: 35px ;}
+.cart-content-3{
+ position:relative;
+bottom: 10px;
+left: 240px;
+width: 10px;
+top: 20;
+}
+.cart-content-text-3 h2{color: rgb(2, 129, 119);}
+.cart-4{
+    width: 500px;
+    padding: 25px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+box-shadow: 6px -5px 179px -28px rgb(114, 8, 0);
+-webkit-box-shadow: 6px -5px 179px -28px rgb(165, 22, 3);
+-moz-box-shadow: 6px -5px 179px -28px rgb(255, 0, 0);
+position: relative;
+top: 250px;
+right: 170px;
+height: 155px;
+background-color: white;
+}
+.cart-4::before{
+    position:absolute;
+    right: 1px;
+    left: 1px;
+    top:  1px;
+    content: "";
+    height: 10px;
+    width: 100%;
+    background-color: rgb(170, 3, 3);
+    border-radius: 35px ;
+    border-top-left-radius:     45px;
+    border-top-right-radius: 35px;
+    -webkit-border-radius: 35px ;
+    -moz-border-radius: 35px ;
+    -ms-border-radius: 35px ;
+    -o-border-radius: 35px ;}
+    .cart-content-4{
+ position:relative;
+bottom: 10px;
+left: 250px;
+width: 10px;
+}
+.cart-content-text-4 h2{color: rgb(109, 1, 1);}
+@keyframes aparecer {
+  from {
+    opacity: 0;
+    transform: translateY(80px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.cart-1, .cart-2, .cart-3, .cart-4 {
+  opacity: 0;
+  animation: aparecer 2s ease forwards ;
+  -webkit-animation: aparecer 2s ease forwards ;
+}
+
+.cart-1 { animation-delay: 0.10s; }
+.cart-2 { animation-delay: 0.14s; }
+.cart-3 { animation-delay: 0.16s; }
+.cart-4 { animation-delay: 0.18s; }
+
+
+
+
+
+
+
+
+ 

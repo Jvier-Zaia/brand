@@ -1,0 +1,26 @@
+.cont-pelota {
+  background-color: rgb(93, 226, 197);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pelota {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(220, 190, 20);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  bottom: 400px;
+  position: absolute;
+  animation: jump 2s infinite;
+  -webkit-animation: jump 2s  alternate infinite;
+}
+@keyframes jump {
+    from{bottom: 0px;}
+    to{bottom: 400px;}
+    
+}  
